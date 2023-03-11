@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Library {
     private final Book[] books;
 
@@ -28,11 +26,10 @@ public class Library {
 
     @Override
     public String toString() {
-        return "Library:\n" + Arrays.toString(books);
+        System.out.println("Library:");
+        for (var i = 0; i < books.length; i++) {
+            System.out.println(books[i]);
+        }
+        return "";
     }
-
-//  Library:
-//  Book: The Stand by Author: Stephen King
-//  Book: War and Peace by Author: Lev Tolstoy
-
 }
