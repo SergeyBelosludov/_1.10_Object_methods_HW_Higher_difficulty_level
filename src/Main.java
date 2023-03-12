@@ -52,8 +52,8 @@ Book: The Stand by Author: Stephen King
 Book: War and Peace by Author: Lev Tolstoy
 ==============================
 Library:
-            Book: The Stand by Author: Stephen King
-            Book: War and Peace by Author: Lev Tolstoy
+Book: The Stand by Author: Stephen King
+Book: War and Peace by Author: Lev Tolstoy
 */
     }
 }

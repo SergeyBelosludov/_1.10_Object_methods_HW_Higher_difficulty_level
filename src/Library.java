@@ -26,9 +26,9 @@ public class Library {
 
     @Override
     public String toString() {
-        String libraryTotal = "Library:\n";
-        for (var i = 0; i < books.length; i++) {
-            libraryTotal = libraryTotal + books[i] + "\n";
+        String libraryTotal = "Library:";
+        for (Book book : books) {
+            libraryTotal = libraryTotal + "\n" + book;
         }
         return libraryTotal;
     }
