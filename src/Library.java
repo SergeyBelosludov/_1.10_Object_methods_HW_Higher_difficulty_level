@@ -26,10 +26,10 @@ public class Library {
 
     @Override
     public String toString() {
-        System.out.println("Library:");
+        String libraryTotal = "Library:\n";
         for (var i = 0; i < books.length; i++) {
-            System.out.println(books[i]);
+            libraryTotal = libraryTotal + books[i] + "\n";
         }
-        return "";
+        return libraryTotal;
     }
 }
